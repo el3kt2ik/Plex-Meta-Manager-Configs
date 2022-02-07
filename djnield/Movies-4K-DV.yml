@@ -41,19 +41,34 @@ collections:
     visible_shared: false
     visible_library: true
 
-  DV-Atmos:
+  #DV-Atmos:
+    #plex_all: true
+    #filters:
+      #filepath:
+        #- MoviesDV
+        #- Atmos
+      #filepath.not:
+        #- DTS-X
+        #- TrueHD
+        #- DTS-HD
+    #item_overlay:
+      #name: DV-Atmos
+      #url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-Atmos/overlay.png
+    #build_collection: false
+
+  Atmos:
     plex_all: true
     filters:
       filepath:
-        - MoviesDV
+        #- MoviesDV
         - Atmos
       filepath.not:
         - DTS-X
         - TrueHD
         - DTS-HD
     item_overlay:
-      name: DV-Atmos
-      url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-Atmos/overlay.png
+      name: Atmos
+      url: https://github.com/el3kt2ik/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/Atmos/overlay.png
     build_collection: false
 
   DV:
@@ -70,22 +85,53 @@ collections:
       url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV/overlay.png
     build_collection: false
 
-  DV-DTS-X:
+  #DV-DTS-X:
+    #plex_all: true
+    #filters:
+      #filepath:
+        #- MoviesDV
+        #- DTS-X
+      #filepath.not:
+        #- Atmos
+        #- TrueHD
+        #- DTS-HD
+    #item_overlay:
+      #name: DV-DTS-X
+      #url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-DTS-X/overlay.png
+    #build_collection: false
+
+  DTS-X:
     plex_all: true
     filters:
       filepath:
-        - MoviesDV
+        #- MoviesDV
         - DTS-X
       filepath.not:
         - Atmos
         - TrueHD
         - DTS-HD
     item_overlay:
-      name: DV-DTS-X
-      url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-DTS-X/overlay.png
+      name: DTS-X
+      url: https://github.com/el3kt2ik/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DTS-X/overlay.png
     build_collection: false
 
-  DV-TrueHD:
+  #DV-TrueHD:
+    #plex_all: true
+    #filters:
+      #filepath:
+        #- MoviesDV
+        #- TrueHD
+      #filepath.not:
+        #- DTS-X
+        #- DTS-HD
+        #- Atmos
+        #- EAC3
+    #item_overlay:
+      #name: DV-TrueHD
+      #url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-TrueHD/overlay.png
+    #build_collection: false
+
+  TrueHD:
     plex_all: true
     filters:
       filepath:
@@ -97,15 +143,31 @@ collections:
         - Atmos
         - EAC3
     item_overlay:
-      name: DV-TrueHD
-      url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-TrueHD/overlay.png
+      name: TrueHD
+      url: https://github.com/el3kt2ik/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/True-HD/overlay.png
     build_collection: false
 
-  DV-TrueHD-Atmos:
+  #DV-TrueHD-Atmos:
+    #plex_all: true
+    #filters:
+      #filepath:
+        #- MoviesDV
+        #- TrueHD
+        #- Atmos
+      #filepath.not:
+        #- DTS-X
+        #- DTS-HD
+        #- EAC3
+    #item_overlay:
+      #name: DV-TrueHD-Atmos
+      #url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-TrueHD-Atmos/overlay.png
+    #build_collection: false
+
+  TrueHD-Atmos:
     plex_all: true
     filters:
       filepath:
-        - MoviesDV
+       # - MoviesDV
         - TrueHD
         - Atmos
       filepath.not:
@@ -113,21 +175,55 @@ collections:
         - DTS-HD
         - EAC3
     item_overlay:
-      name: DV-TrueHD-Atmos
-      url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-TrueHD-Atmos/overlay.png
+      name: TrueHD-Atmos
+      url: https://github.com/el3kt2ik/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/TrueHD-Atmos/overlay.png
     build_collection: false
 
-  DV-DTS-HD:
+  #DV-DTS-HD:
+    #plex_all: true
+    #filters:
+      #filepath:
+        #- MoviesDV
+        #- DTS-HD
+      #filepath.not:
+        #- DTS-X
+        #- TrueHD
+        #- Atmos
+    #item_overlay:
+      #name: DV-DTS-HD
+      #url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-DTS-HD/overlay.png
+    #build_collection: false
+
+  DTS-HD:
     plex_all: true
     filters:
       filepath:
-        - MoviesDV
+        #- MoviesDV
         - DTS-HD
       filepath.not:
         - DTS-X
         - TrueHD
         - Atmos
     item_overlay:
-      name: DV-DTS-HD
-      url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DV-DTS-HD/overlay.png
+      name: DTS-HD
+      url: https://github.com/el3kt2ik/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/DTS-HD/overlay.png
+    build_collection: false
+
+4K-HDR Overlay:
+    plex_search:
+      all:
+        resolution: 4K
+        hdr: true
+    item_overlay:
+      name: 4K-HDR
+      url: https://github.com/djnield/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/4K-HDR/overlay.png
+    build_collection: false
+4K Overlay:
+    plex_search:
+      all:
+        resolution: 4K
+        hdr: false
+    item_overlay:
+      name: 4K
+      url: https://github.com/el3kt2ik/Plex-Meta-Manager-Configs/raw/master/djnield/overlays/4K/overlay.png
     build_collection: false
