@@ -59,7 +59,6 @@
         - Atmos
         - DTS-X
         - DTS-HD
-	      - EAC3
     item_overlay:
       name: 1080P-TrueHD
       url: https://github.com/el3kt2ik/Plex-Meta-Manager-Configs/raw/master/el3kt2ik/overlays/1080P-True-HD/overlay.png
@@ -74,7 +73,7 @@
         - TrueHD
         - Atmos
       filepath.not:
-	      - 4K
+        - 4K
         - DTS-X
         - DTS-HD
         - EAC3
@@ -87,18 +86,18 @@
      plex_search:
       all:
         resolution: 1080P
-    filters:
+     filters:
       filepath:
         - DTS-HD
       filepath.not:
+        - 4K
         - DTS-X
         - TrueHD
         - Atmos
-	      - 4K
-    item_overlay:
+     item_overlay:
       name: 1080P-DTS-HD
       url: https://github.com/el3kt2ik/Plex-Meta-Manager-Configs/raw/master/el3kt2ik/overlays/1080P-DTS-HD/overlay.png
-    build_collection: false
+     build_collection: false
 
 #4K-HDR Overlay:
     #plex_search:
