@@ -135,7 +135,7 @@ collections:
     plex_all: true
     filters:
       filepath:
-        - MoviesDV
+        #- MoviesDV
         - TrueHD
       filepath.not:
         - DTS-X
